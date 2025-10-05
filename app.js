@@ -7,7 +7,7 @@ let toCurr = document.querySelector(".select-container2 select");
 const btn = document.querySelector("button");
 const msg = document.querySelector(".msg");
 
-// event listener
+// event listener add in the event listener 
 btn.addEventListener("click", async (e) => {
   e.preventDefault(); // prevent form submit refresh
 
